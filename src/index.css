@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --color-navy: #0A1A3A;
+  --color-ocean: #0E3A7A;
+  --color-aqua: #4FC3E0;
+  --color-ice: #F4F9FF;
+  --color-silver: #C9D6E8;
+  --color-orange: #FF8C42;
+  --color-green: #4CAF50;
+  --color-brown: #8B5A3C;
+  --color-chocolate: #6B4423;
+  --color-yellow: #FFB800;
+  --color-steel: #8BA3B8;
+  --color-cherry: #E91E63;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--color-navy);
+  color: var(--color-ice);
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-navy);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-aqua);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3BA8C8;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+}
